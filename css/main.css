@@ -151,7 +151,6 @@ main .logo picture img {
     height: 20px;
     width: 20px;
     margin-right: 13px;
-    fill: #9aa0a6;
 }
 
 .search-bar .search-bar-container input {
@@ -164,7 +163,7 @@ main .logo picture img {
     font-size: 1.6rem;
 }
 
-.search-bar .search-bar-container .mic-icon {
+.search-bar .search-bar-container .mic-icon img {
     height: 24px;
     width: 24px;
 }
