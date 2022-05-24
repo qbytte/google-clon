@@ -19,15 +19,10 @@ a {
   cursor: pointer;
 }
 
-header {
-  width: 100%;
-  height: 6vh;
-}
-
 header nav {
   display: flex;
   justify-content: flex-end;
-  height: 100%;
+  min-height: 6.15vh;
   padding: 6px;
   padding-right: 14px;
 }
@@ -97,4 +92,30 @@ nav .nav-right-section .profile-picture img {
 
 nav .nav-right-section .apps-icon {
   padding: 8px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 93.85vh;
+}
+
+main .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 290px;
+    min-height: 90px;
+}
+
+main .logo picture {
+    height: 92px;
+    min-width: 272px;
+}
+
+main .logo picture img {
+    width: 100%;
 }
