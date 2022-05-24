@@ -98,7 +98,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 93.85vh;
+    height: 83.85vh;
 }
 
 main .logo {
@@ -189,4 +189,54 @@ main .buttons button {
 main .buttons button:hover {
   border: 1px #5f6368 solid;
   box-shadow: 0 1px 3px rgba(23,23,23,0.24);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background: #171717;
+}
+
+footer .footer-country {
+  width: 100%;
+  padding: 15px 30px;
+  border-bottom: 1px #212327 solid;
+}
+
+footer .footer-country p {
+  font-size: 1.5rem;
+  color: #9aa0a6;
+}
+
+footer .footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+footer .footer-links ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .footer-links li {
+  padding: 15px;
+}
+
+footer .footer-links a {
+  color: #999da2;
+  font-size: 1.4rem;
+}
+
+footer .footer-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+  footer .footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
 }
