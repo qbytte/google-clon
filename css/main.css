@@ -167,3 +167,26 @@ main .logo picture img {
     height: 24px;
     width: 24px;
 }
+
+main .buttons {
+  display: flex;
+  justify-content: center;
+  width: 530px;
+  margin-top: 11px;
+}
+
+main .buttons button {
+  height: 36px;
+  background: #303134;
+  color: #e8eaed;
+  border: 1px #303134 solid;
+  border-radius: 4px;
+  padding: 0 16px;
+  cursor: pointer;
+  margin: 0 6px
+}
+
+main .buttons button:hover {
+  border: 1px #5f6368 solid;
+  box-shadow: 0 1px 3px rgba(23,23,23,0.24);
+}
