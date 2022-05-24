@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.3rem;
+  font-family: arial, sans-serif;
+  background: #202124;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 6vh;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 6px;
+  padding-right: 14px;
+}
+
+header nav .nav-right-section {
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav .icons li {
+  margin-left: 8px;
+}
+
+header nav .links li {
+  margin-right: 10px;
+}
+
+header nav .links li:nth-child(1) {
+  margin-right: 15px;
+}
+
+nav .nav-right-section a {
+  color: #ffffff;
+}
+
+nav .links a:hover {
+  text-decoration: underline;
+}
+
+nav .nav-right-section .apps-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section .apps-icon svg {
+    fill:rgba(255,255,255,0.87)
+}
+
+nav .nav-right-section .apps-icon:hover {
+  background-color: rgba(232, 234, 237, 0.08);
+  border-radius: 50%;
+}
+
+nav .nav-right-section .profile-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+nav .nav-right-section .profile-picture:hover {
+  background-color: rgba(232, 234, 237, 0.08);
+  border-radius: 50%;
+}
+
+nav .nav-right-section .profile-picture img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+nav .nav-right-section .apps-icon {
+  padding: 8px;
+}
